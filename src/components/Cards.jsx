@@ -13,7 +13,7 @@ const Cards = () => {
 
   return (
     <div className=''>
-        <div className='container mx-auto mt-10 w-auto grid grid-cols-3 items-center h-96'>
+        <div className='mx-auto mt-10 w-auto grid grid-cols-3 h-90 mb-10'>
             
               {cards && cards.map((card,index) => <Card key={index} card={card}/>)}
             

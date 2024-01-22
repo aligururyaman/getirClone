@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Card = ({ card: {id, title, image, titleMain}}) => {
+const CardY = ({ cardy: {id, title, image, titleMain}}) => {
   return (
     <div className='m-2 bg-white rounded-lg border 
     border-gray-50'>
@@ -14,4 +14,4 @@ const Card = ({ card: {id, title, image, titleMain}}) => {
   )
 }
 
-export default Card
+export default CardY

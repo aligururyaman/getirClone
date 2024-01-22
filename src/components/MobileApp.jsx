@@ -2,7 +2,7 @@ import React from 'react'
 
 const MobileApp = () => {
   return (
-      <div className="bg-primary-brand-color flex mt-8 justify-between items-center bg-hero-pattern rounded-lg text-white">
+      <div className=" bg-primary-brand-color flex mt-8 justify-between items-center bg-hero-pattern rounded-lg text-white">
         <section className='flex flex-col gap-y-3 p-10'>
           <h3 className='text-4xl font-bold tracking-tight'>Getir'i indir!</h3>
           <p className='font-semibold text-xl w-[360px]'>İstediğiniz ürünleri dakikalar içinde kapınıza getirelim.</p>

@@ -3,9 +3,9 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className='bg-white h-80'>
-      <div className='pt-10 pl-6 mx-auto container'>
+      <div className='pt-10 mx-auto container'>
         <div className='grid grid-cols-5'>
-          <div className=''>
+          <div className='font-sans'>
             <h6 className='text-primary-brand-color text-3xl pb-4'>Getir'i indir!</h6>
             <nav className=''>
               <a href="#">
@@ -19,7 +19,7 @@ const Footer = () => {
               </a>
             </nav>
           </div>
-          <div className='font-sans text-gray-600 '>
+          <div className='font-sans text-gray-600 pl-10'>
             <h6 className='text-primary-brand-color text-xl mb-3 '>Getir'i keşfet</h6>
               <ol>
                 <li className='mb-3'><a href="#">Hakkımızda</a></li>
@@ -30,7 +30,7 @@ const Footer = () => {
                 <li ><a href="#">Basın Bültenleri</a></li>
               </ol>
           </div>  
-          <div className='font-sans text-gray-600 '>
+          <div className='font-sans text-gray-600 pl-9'>
             <h6 className='text-primary-brand-color text-xl mb-3'>Yardıma mı ihtiyacın var?</h6>
             <ol>
                 <li className='mb-3'><a href="#">Sıkça Sorulan Sorular</a></li>
@@ -42,7 +42,7 @@ const Footer = () => {
                 ><a href="#">İşlem Rehberi</a></li>
               </ol>
           </div>
-          <div className='font-sans text-gray-600 '>
+          <div className='font-sans text-gray-600 pl-10'>
             <h6 className='text-primary-brand-color text-xl mb-3'>İş Ortağımız Ol</h6>
             <ol>
                 <li className='mb-3'><a href="#">Bayimiz olun</a></li>
@@ -53,14 +53,16 @@ const Footer = () => {
                 <li 
                 ><a href="#">Basın Bültenleri</a></li>
               </ol>
-          </div> 
+          </div>
+          <div className='pl-28 mt-10'>
           <div className='p-4 h-28 w-24 border rounded-lg'>
             <img className='h-20 w-16' src="https://cdn.getir.com/getirweb-images/common/etbis.png" alt="etic" />
           </div>  
+          </div> 
         </div>
       </div>
       <article className='bg-white'>
-        <div  className='container mx-auto mt-5 border-t-2 h-20'>
+        <div  className='container mx-auto  border-t-2 h-20'>
           <h6 className='text-gray-600 text-sm font-sans p-6'>
           © 2024 Getir | Ali Gurur Yaman
           </h6>
